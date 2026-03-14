@@ -2,6 +2,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import CTA from './components/CTA';
+import AboutUs from './components/AboutUs';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
       <main>
         <Hero />
         <Features />
+        <AboutUs />
         <CTA />
+        <Contact />
       </main>
       <Footer />
     </div>
